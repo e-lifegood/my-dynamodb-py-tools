@@ -35,7 +35,7 @@ def main():
     except Exception as ex:
         print(f"Ocurrió un error: {ex}")
 
-    input("**Fin**")
+    print("**Fin**")
 
 if __name__ == "__main__":
     main()

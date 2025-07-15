@@ -1,8 +1,8 @@
 import os
 import base64
 import tempfile
-from scripts.csv_api_to_base64 import main as convert_to_base64
 import sys
+from scripts.csv_api_to_base64 import main as convert_to_base64
 
 def test_csv_to_base64_conversion(monkeypatch, capsys):
     # Crear archivo CSV temporal
